@@ -1,51 +1,6 @@
 <?php
 /*
-  Plugin Name: Stealth Login Page
-  Plugin URI: http://wordpress.org/extend/plugins/stealth-login-page/
-  Version: 4.0
-  Author: Jesse Petersen
-  Author URI: http://www.petersenmediagroup.com
-  Description: Protect your /wp-admin and wp-login.php pages from being accessed without editing .htaccess
-  Text Domain: stealth-login-page
-  Domain Path: /languages/
- */
-/*
-  Copyright 2013 Jesse Petersen
 
-  Thanks to Andrew Norcross (@norcross) for the original redirect code
-  https://gist.github.com/norcross/4342231) and Billy Fairbank
-  (@billyfairbank) for the idea to turn it into a plugin. Last minute thanks
-  for 'mindctrl' (https://github.com/mindctrl) hopping on GitHub and adding
-  more advanced features and correcting my mistakes.
-
-  Thanks to David Decker for DE localization: http://deckerweb.de/kontakt/
-
-  Limit of liability: Installation and use of this plugin acknowledges the
-  understanding that this program alters the wp-config.php file and adds
-  settings to the WordPress database. The author is not responsible for any
-  damages or loss of data that might possibly be incurred through the
-  installation or use of the plugin.
-
-  Support: This is a free plugin, therefore support is limited to bugs that
-  affect all installations. Requests of any other nature will be at the
-  discretion of the plugin author to add or modify the code to account for
-  various installations, servers, or plugin conflicts.
-  
-  Licenced under the GNU GPL:
-
-  This program is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation; either version 2 of the License, or
-  (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public License
-  along with this program; if not, write to the Free Software
-  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
 /* Prevent direct access to the plugin */
